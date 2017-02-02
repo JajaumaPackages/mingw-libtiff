@@ -3,7 +3,7 @@
 Summary:        MinGW Windows port of the LibTIFF library
 Name:           mingw-libtiff
 Version:        4.0.7
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        libtiff
 Group:          System Environment/Libraries
 URL:            http://www.simplesystems.org/libtiff/
@@ -140,6 +140,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 4.0.7-2
+- Rebuild with GCC 5.4.0
+
 * Mon Jan 09 2017 Michael Cronenworth <mike@cchtml.com> - 4.0.7-1
 - Update to 4.0.7
 
